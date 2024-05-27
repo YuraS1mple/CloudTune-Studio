@@ -1,0 +1,25 @@
+
+<h1>Registered Mercedes Cars</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Year</th>
+      <th>Color</th>
+      <th>Owner Name</th>
+      <th>Contact Info</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @cars.each do |car| %>
+      <tr>
+        <td><%= car.model %></td>
+        <td><%= car.year %></td>
+        <td><%= car.color %></td>
+        <td><%= car.owner_name %></td>
+        <td><%= car.contact_info %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

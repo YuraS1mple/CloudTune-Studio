@@ -1,0 +1,2 @@
+class MercedesCar < ApplicationRecord
+end

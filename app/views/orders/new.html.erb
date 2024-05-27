@@ -1,0 +1,55 @@
+<!-- app/views/orders/new.html.erb -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Замовлення</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <%= form_with(model: Order.new, url: orders_path) do |form| %>
+      <h1>Форма реєстрації для передзамовлення автомобіля Mercedes</h1>
+
+      <div class="form-fields">
+        <div class="input-field">
+          <%= form.label :full_name, 'Ім\'я' %><br>
+          <%= form.text_field :full_name, class: 'text-field' %>
+        </div><br>
+        
+        <div class="input-field">
+          <%= form.label :email, 'Електронна пошта' %><br>
+          <%= form.email_field :email, class: 'text-field' %>
+        </div><br>
+        
+        <div class="input-field">
+          <%= form.label :phone, 'Номер телефону' %><br>
+          <%= form.text_field :phone, class: 'text-field' %>
+        </div><br>
+        
+        <div class="input-field">
+          <%= form.label :car_model, 'Модель автомобіля' %><br>
+          <%= form.select :car_model, ['G-class', 'S-class', 'E-class', 'V-class', 'GLE', 'GLS'], {}, { class: 'text-field select-field' } %>
+        </div><br>
+        
+        <div class="input-field">
+          <%= form.label :color, 'Колір автомобіля' %><br>
+          <%= form.select :color, ['Чорний', 'Білий', 'Сірий', 'Червоний', 'Синій'], {}, { class: 'text-field select-field' } %>
+        </div><br>
+        
+        <div>
+          <%= form.label :message, 'Повідомлення' %><br>
+          <%= form.text_area :message, class: 'text-area' %>
+        </div><br>
+
+        <div>
+          <%= form.submit 'Створити замовлення', class: 'submit-button' %>
+          <%= link_to 'Переглянути замовлення', orders_path, class: 'view-order-button' %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <script src="js/script.js"></script> <!-- Посилання на JavaScript файл -->
+</body>
+</html>

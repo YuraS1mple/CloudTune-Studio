@@ -1,0 +1,19 @@
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+C:/Ruby32/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-6lz4tp sitelibdir\=./.gem.20231226-5396-6lz4tp clean
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-6lz4tp sitelibdir\=./.gem.20231226-5396-6lz4tp
+generating bootsnap-x64-mingw-ucrt.def
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-6lz4tp sitelibdir\=./.gem.20231226-5396-6lz4tp install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20231226-5396-6lz4tp/bootsnap
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-6lz4tp sitelibdir\=./.gem.20231226-5396-6lz4tp clean

@@ -1,0 +1,19 @@
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+C:/Ruby32/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-zma6bt sitelibdir\=./.gem.20231226-5396-zma6bt clean
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-zma6bt sitelibdir\=./.gem.20231226-5396-zma6bt
+generating cparse-x64-mingw-ucrt.def
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-zma6bt sitelibdir\=./.gem.20231226-5396-zma6bt install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20231226-5396-zma6bt/racc
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-zma6bt sitelibdir\=./.gem.20231226-5396-zma6bt clean

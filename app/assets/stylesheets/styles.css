@@ -1,0 +1,112 @@
+body {
+    background-image: url('https://www.topgear.com/sites/default/files/2023/11/1%20Mercedes%20AMG%20GT.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    position: relative;
+    width: 60%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.text-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    width: calc(100% - 20px);
+    font-size: 14px;
+}
+
+.select-field,
+.color-options {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    font-size: 14px;
+    background-image: none; 
+}
+
+.text-field:hover,
+.text-field:focus,
+.select-field:hover,
+.select-field:focus {
+    border-color: #81a9d2;
+    box-shadow: 0 0 5px rgba(129, 169, 210, 0.8);
+}
+
+.submit-button {
+    background-color: #636363;
+    color: #eeecec;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.view-order-button {
+    background-color: #81a9d2;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.view-order-button:hover,
+.submit-button:hover {
+    background-color: #6b6e70;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.black {
+  background-color: #000;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.blue {
+  background-color: #0000ff;
+}
+
+
+.form-container {
+    transition: box-shadow 0.3s ease-in-out;
+}
+.form-container:hover {
+    box-shadow: 0 0 25px 5px rgba(177, 202, 228, 0.8)
+}

@@ -1,0 +1,10 @@
+<h1>Форма реєстрації для передзамовлення автомобіля Mercedes</h1>
+<link rel="stylesheet" href="styles.css">
+
+<%= form_with(model: MercedesCar.new, url: orders_path, method: :post) do |form| %>
+  <div>
+    <%= form.submit 'Замовити' %>
+    <%= link_to 'Переглянути замовлення', orders_path %>
+  </div>
+<% end %>
+d

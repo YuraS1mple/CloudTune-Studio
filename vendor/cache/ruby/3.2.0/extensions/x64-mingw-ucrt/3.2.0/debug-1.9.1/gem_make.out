@@ -1,0 +1,20 @@
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+C:/Ruby32/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-6v5tvm sitelibdir\=./.gem.20231226-5396-6v5tvm clean
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-6v5tvm sitelibdir\=./.gem.20231226-5396-6v5tvm
+generating debug-x64-mingw-ucrt.def
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-6v5tvm sitelibdir\=./.gem.20231226-5396-6v5tvm install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20231226-5396-6v5tvm/debug
+
+current directory: c:/Ruby32/Proj/rails/Kursova/vendor/cache/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231226-5396-6v5tvm sitelibdir\=./.gem.20231226-5396-6v5tvm clean
